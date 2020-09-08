@@ -1,4 +1,12 @@
 # Kubernetes Cluster using Ansible
+
+## Prerequisites
+If you are running this on OSX you will need to install sshpass. You can do this using these commands:
+```
+brew tap esolitos/ipa
+brew install sshpass
+
+```
 * Clone repository.
 * Create multiple centos8 servers. One master and many worker. Use vagrant like [here](https://github.com/edib/many_vagrant_machines)
 * Change the “ad_addr” in the env_variables file with the IP address of the Kubernetes master node.
